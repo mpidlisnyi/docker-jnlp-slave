@@ -1,1 +1,1 @@
-#Light image for Jenkins JNLP slaves
+# Light image for Jenkins JNLP slaves

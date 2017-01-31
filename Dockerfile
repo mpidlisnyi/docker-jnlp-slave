@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install --no-install-recommends --no-install-sugge
 	curl \
 	python3 \
 	python3-pip \
-	python-virtualenv \
+	virtualenv \
 	&& apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /usr/share/ca-certificates/cryptspirit.org

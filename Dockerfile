@@ -14,8 +14,8 @@ RUN apt-get update && apt-get install --no-install-recommends --no-install-sugge
 	python3-pip \
 	virtualenv \
 	rsync \
-	&& pip install setuptools \
-	&& pip3 install setuptools \
+	&& pip install setuptools --upgrade \
+	&& pip3 install setuptools --upgrade \
 	&& apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /usr/share/ca-certificates/cryptspirit.org

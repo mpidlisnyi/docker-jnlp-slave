@@ -10,8 +10,10 @@ RUN apt-get update && apt-get install --no-install-recommends --no-install-sugge
 	curl \
 	python \
 	python-pip \
+	python-setuptools \
 	python3 \
 	python3-pip \
+	python3-setuptools \
 	virtualenv \
 	rsync \
 	&& apt-get clean && rm -rf /var/lib/apt/lists/*

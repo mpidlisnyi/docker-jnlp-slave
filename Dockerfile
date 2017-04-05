@@ -8,6 +8,8 @@ RUN apt-get update && apt-get install --no-install-recommends --no-install-sugge
 	make \
 	git \
 	curl \
+	python \
+	python-pip \
 	python3 \
 	python3-pip \
 	virtualenv \

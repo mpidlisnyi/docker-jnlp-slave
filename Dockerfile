@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install --no-install-recommends --no-install-sugge
 	make \
 	git \
 	rsync \
+	imagemagick \
 	curl
 # python tools
 RUN apt-get update && apt-get install --no-install-recommends --no-install-suggests  -y \

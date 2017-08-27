@@ -27,5 +27,5 @@ RUN apt-get update && apt-get install --no-install-recommends --no-install-sugge
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /usr/share/ca-certificates/dcrft-ca
-COPY certs/dcrft-ca.pem /usr/share/ca-certificates/cryptspirit.org/dcrft-ca
+COPY certs/dcrft-ca.pem /usr/share/ca-certificates/dcrft-ca/dcrft-ca
 RUN echo "dcrft-ca/dcrft-ca.pem" >> /etc/ca-certificates.conf && update-ca-certificates
